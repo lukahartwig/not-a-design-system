@@ -24,8 +24,7 @@
     "prepare": "is-ci || husky install",
     "start": "npm run start:docs",
     "start:docs": "docz dev",
-    "test": "jest",
-    "semantic-release": "semantic-release"
+    "test": "jest"
   },
   "peerDependencies": {
     "react": "*",
