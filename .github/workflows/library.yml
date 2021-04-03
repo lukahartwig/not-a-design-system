@@ -1,4 +1,4 @@
-name: Component Library CI
+name: Component Library
 
 on:
   push:
@@ -44,7 +44,6 @@ jobs:
         uses: cycjimmy/semantic-release-action@v2
         with:
           semantic_version: 17
-          dry_run: true
           extra_plugins: |
             @semantic-release/changelog@3.0.0
             @semantic-release/git
